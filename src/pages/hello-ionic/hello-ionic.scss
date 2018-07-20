@@ -1,3 +1,29 @@
 page-hello-ionic {
+   
+    ion-content{
 
+        background-color:beige !important;
+        .principal{
+            height: 100%;
+            width: 100%;
+            .titulo{
+                height: 5%;
+                text-align: center;
+                color: blue;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+            }
+            .avatar{
+                display: block;
+                margin:auto;
+                height: 100px;
+                width: 100px;
+                border: 15px;              
+                
+            }
+            ul{
+                list-style: none;
+            }
+        }
+    }
 }
+

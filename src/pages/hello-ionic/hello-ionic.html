@@ -9,9 +9,29 @@
 
 
 <ion-content padding>
+    <ion-fab top right edge>
+        <button ion-fab mini><ion-icon name="add"></ion-icon></button>
+        <ion-fab-list>
+          <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
+          <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>
+          <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>
+          <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>
+        </ion-fab-list>
+      </ion-fab>
 
-  <h3>Mi información personal </h3>
-
+      <ion-fab right bottom>
+          <button ion-fab color="light"><ion-icon name="arrow-dropleft"></ion-icon></button>
+          <ion-fab-list side="left">
+            <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
+            <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>
+            <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>
+            <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>
+          </ion-fab-list>
+        </ion-fab>
+      
+<div class = "principal">
+  <div class = "titulo"> Mi información personal </div>
+  <img class = "avatar" src="https://st.depositphotos.com/2704315/3185/v/950/depositphotos_31854223-stock-illustration-vector-user-profile-avatar-man.jpg"/>
   <ul>   
     <li>Nombre: Jeison Steven</li>
     <li>Apellido: Rodriguez Gonzalez</li>
@@ -25,5 +45,6 @@
   <p>
     <button ion-button color="primary" menuToggle>Toggle Menu</button>
   </p>
-
+</div>
 </ion-content>
+
